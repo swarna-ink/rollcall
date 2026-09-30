@@ -20,7 +20,7 @@ export default function TestimonialsCTA() {
       {/* Testimonials */}
       <div>
         <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900">
+          <h2 className="text-2xl md:text-3xl font-extrabold text-white-800">
             Trusted by Academic Leaders
           </h2>
         </div>
