@@ -1,20 +1,30 @@
-/* frontend/src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    /* Fixed background and academic watermark subtle texture */
     background-color: #090933;
+    /* Rich Academic SVG Watermark with high visibility math & study formulas */
     background-image: 
-      /* Updated subtle Math & Science pattern */
-      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800' viewBox='0 0 800 800'%3E%3Cg fill='%23575799' fill-opacity='0.08' font-family='monospace' font-weight='bold' font-size='20'%3E%3Ctext x='40' y='80'%3Ef(x) = ∫ dx / (1 + x²)%3C/text%3E%3Ctext x='520' y='120'%3EE = mc²%3C/text%3E%3Ctext x='60' y='300'%3E∇ × B = μ₀J + μ₀ε₀(∂E/∂t)%3C/text%3E%3Ctext x='450' y='480'%3E∑ (1/n²) = π²/6%3C/text%3E%3Ctext x='150' y='650'%3Ea² + b² = c²%3C/text%3E%3Cpath d='M100 520 A 120 120 0 0 1 300 520' stroke='%23575799' stroke-width='1.5' stroke-opacity='0.08' fill='none'/%3E%3Ccircle cx='620' cy='280' r='60' stroke='%23575799' stroke-width='1.5' stroke-opacity='0.08' fill='none'/%3E%3C/g%3E%3C/svg%3E"),
-      linear-gradient(135deg, #090933 0%, #1a1a4b 50%, #575799 100%);
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1000' height='1000' viewBox='0 0 1000 1000'%3E%3Cg fill='%238c8cd9' fill-opacity='0.22' font-family='monospace' font-weight='bold' font-size='22'%3E%3Ctext x='50' y='100'%3Ef(x) = ∫ dx / (1 + x²)%3C/text%3E%3Ctext x='650' y='140'%3EE = mc²%3C/text%3E%3Ctext x='80' y='380'%3E∇ × B = μ₀J + μ₀ε₀(∂E/∂t)%3C/text%3E%3Ctext x='550' y='550'%3E∑ (1/n²) = π²/6%3C/text%3E%3Ctext x='180' y='800'%3Elim x→0 (sin x / x) = 1%3C/text%3E%3Ctext x='620' y='880'%3Ea² + b² = c²%3C/text%3E%3Cpath d='M120 620 A 150 150 0 0 1 380 620' stroke='%238c8cd9' stroke-width='2' stroke-opacity='0.22' fill='none'/%3E%3Ccircle cx='780' cy='320' r='75' stroke='%238c8cd9' stroke-width='2' stroke-opacity='0.22' fill='none'/%3E%3C/g%3E%3C/svg%3E"),
+      linear-gradient(135deg, #070728 0%, #131342 50%, #2f2f73 100%);
     background-attachment: fixed;
     background-size: cover, cover;
     background-position: center, center;
     color: #ffffff;
     min-height: 100vh;
   }
+}
+
+/* Heading Visibility Classes */
+.section-title {
+  color: #ffffff !important;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.section-subtitle {
+  color: #cbd5e1 !important; /* Soft light slate */
 }
